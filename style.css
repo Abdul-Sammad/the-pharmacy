@@ -30,7 +30,7 @@ footer ul li{
     display: flex;
     justify-content: center;
     background-color: black;
-    height: 45vh;
+    height: 50vh;
     margin-top: 60px;
     
     
@@ -67,6 +67,7 @@ footer ul li{
 
 .foo{
     display: inline-block;
+    margin-top: 12px;
 }
 
 .follow{
@@ -85,4 +86,10 @@ li{
     display: inline-block;
     text-decoration: none;
     padding: 5px;
+}
+.card-item {
+    height: 100px;
+}
+.card-item-container {
+    width: 18rem;
 }
