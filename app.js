@@ -23,7 +23,7 @@
 
  function seeMore(data){
     console.log(data)
-    location.href = `data.html?id=`  + data.id ;
+    location.href = `productDetail.html?id=`  + data.id ;
  }
 
 function load() {
@@ -52,13 +52,13 @@ function load() {
         paragraph.className = "card-text"
        
         var cutPrice = document.createElement("s")
-        cutPrice.innerHTML = data[i]["cut price"]
+        cutPrice.innerHTML ="RS "+ data[i]["cut price"]
 
         var lineBreak = document.createElement('br')
         cutPrice.append(lineBreak)
 
         var price = document.createElement("ins")
-        price.innerHTML = data[i].price
+        price.innerHTML ="RS "+ data[i].price
 
         paragraph.append(cutPrice)
         paragraph.append(price)
@@ -89,3 +89,5 @@ function load() {
     
 
 }
+
+

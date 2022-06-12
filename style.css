@@ -68,6 +68,7 @@ footer ul li{
 .foo{
     display: inline-block;
     margin-top: 12px;
+    height: 35vh;
 }
 
 .follow{
@@ -92,4 +93,20 @@ li{
 }
 .card-item-container {
     width: 18rem;
+}
+
+.main-content {
+    margin-bottom: 120px !important;
+}
+
+body {
+    margin-bottom: 0px !important;
+}
+
+p {
+    margin-bottom:  0px !important;
+}
+
+.img-height {
+    height: 300px;
 }
