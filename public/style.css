@@ -1,0 +1,112 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+s{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ins{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+footer{
+    background-color: black;
+    color: beige;
+    padding-left: 30px;
+
+}
+footer ul li{
+    text-decoration: none;
+    display: block;
+}
+
+/*about us*/
+
+.you{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 50vh;
+    margin-top: 60px;
+    
+    
+}
+.about{
+    margin: auto 0;
+}
+.def{
+ 
+   padding-top: 5%;
+  background-color: rgb(250, 250, 250);
+  
+   height: 55vh;
+}
+#heading{
+    width: 75%;
+    font-family: Roboto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+    color: #000;
+   
+
+}
+
+.text-heading {
+    color: #fff;
+}
+
+ .para{
+    text-align: center;
+}
+
+
+.foo{
+    display: inline-block;
+    margin-top: 12px;
+    height: 35vh;
+}
+
+.follow{
+    display: inline-block;
+  padding-left:70%;
+   
+    font-weight: bold;
+
+    
+    font-size: larger;
+   
+    
+} 
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+}
+.card-item {
+    height: 100px;
+}
+.card-item-container {
+    width: 18rem;
+}
+
+.main-content {
+    margin-bottom: 120px !important;
+}
+
+body {
+    margin-bottom: 0px !important;
+}
+
+p {
+    margin-bottom:  0px !important;
+}
+
+.img-height {
+    height: 300px;
+}
